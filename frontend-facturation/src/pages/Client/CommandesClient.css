@@ -1,0 +1,133 @@
+.commandes-client-page {
+  background: #f8f9fa;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* HEADER */
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.icon-box {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, #007bff, #17a2b8);
+}
+
+/* BUTTONS */
+.btn-logout {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: 0.3s;
+}
+
+.btn-logout:hover {
+  background: #b02a37;
+}
+
+.btn-primary-custom {
+  background: linear-gradient(135deg, #007bff, #20c997);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  transition: 0.3s;
+}
+
+.btn-primary-custom:hover {
+  opacity: 0.9;
+}
+
+.btn-refresh {
+  background: #f1f3f5;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-refresh:hover {
+  background: #e9ecef;
+}
+
+/* SEARCH */
+.search-box {
+  position: relative;
+}
+
+.search-input {
+  padding-left: 35px;
+  border-radius: 10px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+/* BADGES */
+.badge {
+  font-size: 0.8rem;
+  padding: 6px 10px;
+  border-radius: 12px;
+  text-transform: capitalize;
+}
+
+.badge-warning { background: #fff3cd; color: #856404; }
+.badge-info { background: #d1ecf1; color: #0c5460; }
+.badge-purple { background: #e2d5f5; color: #5a189a; }
+.badge-indigo { background: #e0e7ff; color: #3f51b5; }
+.badge-orange { background: #ffe5b4; color: #c56a00; }
+.badge-success { background: #d4edda; color: #155724; }
+.badge-danger { background: #f8d7da; color: #721c24; }
+.badge-teal { background: #d1f2eb; color: #0e6655; }
+.badge-secondary { background: #e9ecef; color: #495057; }
+
+/* COMMANDE CARD */
+.commande-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.commande-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.08);
+}
+
+.commande-infos {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.label {
+  color: #6c757d;
+}
+
+/* EMPTY STATE */
+.empty-state {
+  padding: 4rem 1rem;
+}
+
+.empty-icon {
+  color: #adb5bd;
+}

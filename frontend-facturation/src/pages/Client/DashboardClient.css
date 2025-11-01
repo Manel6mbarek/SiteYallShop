@@ -1,0 +1,360 @@
+/* DashboardClient.css */
+
+.dashboard-client {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #dbeafe 0%, #f3e8ff 50%, #fce7f3 100%);
+}
+
+/* Navbar */
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.btn-icon-toggle {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-icon-toggle:hover {
+  background-color: #f3f4f6;
+}
+
+.logo-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-client {
+  background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
+}
+
+.gradient-text-client {
+  background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.badge-client {
+  background: linear-gradient(135deg, #dbeafe 0%, #f3e8ff 100%);
+  border-radius: 50px;
+  color: #7c3aed;
+}
+
+.btn-icon-logout {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  background: transparent;
+  color: #dc2626;
+  transition: all 0.3s ease;
+}
+
+.btn-icon-logout:hover {
+  background-color: #fef2f2;
+}
+
+/* Sidebar */
+.sidebar {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.sidebar-open {
+  width: 256px;
+}
+
+.sidebar-closed {
+  width: 0;
+}
+
+.sidebar-content {
+  height: calc(100vh - 64px);
+  background-color: white;
+  border-right: 1px solid #e5e7eb;
+  padding: 1.5rem;
+}
+
+.btn-menu-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  background: transparent;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.btn-menu-item:hover {
+  background-color: #f9fafb;
+  transform: translateX(4px);
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-menu-item:hover .menu-icon {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.menu-label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.btn-menu-item:hover .menu-label {
+  color: #111827;
+}
+
+/* Activity Section */
+.activity-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.activity-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.activity-green {
+  color: #059669;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.activity-red {
+  color: #dc2626;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.activity-yellow {
+  color: #f59e0b;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.activity-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.activity-text {
+  font-size: 0.875rem;
+  color: #374151;
+  margin-bottom: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.activity-time {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-bottom: 0;
+}
+
+/* Gradients */
+.gradient-emerald {
+  background: linear-gradient(135deg, #10b981 0%, #14b8a6 100%);
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+}
+
+.gradient-orange {
+  background: linear-gradient(135deg, #f97316 0%, #dc2626 100%);
+}
+
+.gradient-purple {
+  background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+}
+
+/* Main Content */
+.main-content {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    padding: 2rem;
+  }
+}
+
+/* Welcome Banner */
+.welcome-banner {
+  background: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  color: white;
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.text-white-80 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.welcome-decoration {
+  width: 128px;
+  height: 128px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  filter: blur(60px);
+}
+
+/* Quick Stats */
+.quick-stat-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f3f4f6;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.quick-stat-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.bg-orange-light {
+  background-color: #fed7aa;
+}
+
+.bg-red-light {
+  background-color: #fecaca;
+}
+
+.bg-purple-light {
+  background-color: #f3e8ff;
+}
+
+.text-orange {
+  color: #ea580c;
+}
+
+.text-red {
+  color: #dc2626;
+}
+
+.text-purple {
+  color: #9333ea;
+}
+
+/* Action Card */
+.action-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f3f4f6;
+}
+
+.main-action-btn {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid #e5e7eb;
+  background: white;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.main-action-btn:hover {
+  border-color: transparent;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.action-icon-large {
+  width: 64px;
+  height: 64px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0 auto 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.main-action-btn:hover .action-icon-large {
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .sidebar-content {
+    padding: 1rem;
+  }
+  
+  .main-content {
+    padding: 1.5rem 1rem;
+  }
+  
+  .welcome-banner {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .welcome-banner h1 {
+    font-size: 1.75rem;
+  }
+}
