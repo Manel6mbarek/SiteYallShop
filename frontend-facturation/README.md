@@ -930,16 +930,10 @@ npm run test
 
 ---
 
-## 📄 Licence
-
-MIT License - voir [LICENSE](LICENSE)
-
----
-
 ## 📧 Contact
 
 - **Email** : support@facturation.com
-- **GitHub** : [@votre-username](https://github.com/votre-username)
+- **GitHub** : [@Manel6barek](https://github.com/Manel6mbarek)
 
 ---
 
