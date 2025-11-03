@@ -253,37 +253,23 @@ Headers: { Authorization: "Bearer eyJhbGc..." }
 
 ## 📸 Captures d'écran
 
+### Interface Login
+```
+<img width="1851" height="964" alt="image" src="https://github.com/user-attachments/assets/a99b7984-03d8-45c2-8862-6c61e4601fe6" />
+
+```
+
 ### Interface Admin
 ```
-┌─────────────────────────────────────────────┐
-│  📊 Dashboard Admin                         │
-├─────────────────────────────────────────────┤
-│  ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐       │
-│  │ 150  │ │ 45   │ │ 1250 │ │ 98%  │       │
-│  │Factures│Commandes│Produits│Clients│      │
-│  └──────┘ └──────┘ └──────┘ └──────┘       │
-│                                              │
-│  📈 Graphique ventes + 🔔 Alertes stock     │
-└─────────────────────────────────────────────┘
+<img width="1851" height="964" alt="image" src="https://github.com/user-attachments/assets/743ac7be-8533-4a3c-a274-c09e4aebdcc7" />
+
 ```
 
 ### Interface Client
 ```
-┌─────────────────────────────────────────────┐
-│  🛒 Mon Panier (3 articles)                 │
-├─────────────────────────────────────────────┤
-│  [Produit 1]  2x  @899.99€  = 1,799.98€    │
-│  [Produit 2]  1x  @299.99€  = 299.99€      │
-│  [Produit 3]  3x  @49.99€   = 149.97€      │
-│                                              │
-│  Total HT : 2,249.94€                       │
-│  TVA 20%  :   449.99€                       │
-│  Total TTC: 2,699.93€                       │
-│                                              │
-│  [Valider la commande]  [Vider le panier]  │
-└─────────────────────────────────────────────┘
-```
+<img width="1851" height="964" alt="image" src="https://github.com/user-attachments/assets/8d420340-8394-4956-8c52-879085fa2edf" />
 
+```
 ---
 
 ## 🧪 Tests
@@ -415,42 +401,10 @@ Les contributions sont les bienvenues !
 
 ---
 
-## 🐛 Problèmes connus
-
-| Problème | Solution |
-|----------|----------|
-| **CORS Error** | Vérifier `@CrossOrigin` dans les controllers |
-| **JWT Expired** | Renouveler le token (déconnexion/reconnexion) |
-| **PDF vide** | Vérifier que la commande contient des lignes |
-| **Stock négatif** | Vérifier la quantité avant validation |
-
-📌 **Reporter un bug** : [Issues GitHub](https://github.com/votre-username/facturation-app/issues)
-
----
-
-## 📄 Licence
-
-Ce projet est sous licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-```
-MIT License
-
-Copyright (c) 2024 Votre Nom
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
-
----
 
 ## 👨‍💻 Auteur
 
-**Votre Nom**
-- 🌐 Website: [votre-site.com](https://votre-site.com)
-- 💼 LinkedIn: [votre-profil](https://linkedin.com/in/votre-profil)
-- 📧 Email: contact@votre-email.com
-- 🐙 GitHub: [@votre-username](https://github.com/votre-username)
+**Mbarek Manel**
 
 ---
 
@@ -493,16 +447,10 @@ in the Software without restriction...
 
 Si ce projet vous a aidé, n'oubliez pas de lui donner une ⭐ !
 
-[![Star History Chart](https://api.star-history.com/svg?repos=votre-username/facturation-app&type=Date)](https://star-history.com/#votre-username/facturation-app&Date)
-
 ---
 
 <div align="center">
 
-**[🏠 Documentation](https://docs.facturation-app.com)** • 
-**[🐛 Rapporter un bug](https://github.com/votre-username/facturation-app/issues)** • 
-**[💡 Demander une fonctionnalité](https://github.com/votre-username/facturation-app/issues/new)**
-
-Fait avec ❤️ par [Votre Nom](https://github.com/votre-username)
+Fait  par [Manel Mbarek](https://github.com/manel6mbarek)
 
 </div>
