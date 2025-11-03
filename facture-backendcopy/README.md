@@ -693,16 +693,11 @@ docker-compose up -d
 
 ---
 
-## 📄 Licence
-
-MIT License - voir [LICENSE](LICENSE)
-
----
 
 ## 📧 Contact
 
-- **Email** : support@facturation.com
-- **GitHub** : [@votre-username](https://github.com/votre-username)
+- **Email** : manelmbarek011@gmail.com
+- **GitHub** : [@Manel6mbarek](https://github.com/Manel6mbarek)
 
 ---
 
