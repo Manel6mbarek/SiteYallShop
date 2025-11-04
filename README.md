@@ -357,38 +357,8 @@ npm run build
 - [x] Génération factures PDF
 - [x] Dashboard admin
 
-### Version 1.1 (Prochaine) 🚧
-- [ ] Notifications en temps réel (WebSocket)
-- [ ] Système de paiement (Stripe/PayPal)
-- [ ] Export Excel des rapports
-- [ ] Multi-langues (FR/EN)
-- [ ] Mode sombre
-
-### Version 2.0 (Future) 💡
-- [ ] Application mobile (React Native)
-- [ ] IA pour prédiction des ventes
-- [ ] Chatbot support client
-- [ ] Système de fidélité
-
 ---
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues !
-
-1. **Fork** le projet
-2. **Créer une branche** : `git checkout -b feature/AmazingFeature`
-3. **Commit** : `git commit -m 'Add AmazingFeature'`
-4. **Push** : `git push origin feature/AmazingFeature`
-5. **Pull Request** : Ouvrir une PR avec description détaillée
-
-### Guidelines
-- Code bien commenté
-- Tests unitaires pour les nouvelles fonctionnalités
-- Respect des conventions de nommage
-- Documentation à jour
-
----
 
 ## 📖 Documentation
 
@@ -406,15 +376,6 @@ Les contributions sont les bienvenues !
 
 **Mbarek Manel**
 
----
-
-## 🙏 Remerciements
-
-- Spring Boot pour le framework backend
-- React pour l'interface utilisateur
-- iText pour la génération PDF
-- Bootstrap pour le design
-- La communauté open-source
 
 ---
 
