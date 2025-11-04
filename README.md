@@ -253,23 +253,16 @@ Headers: { Authorization: "Bearer eyJhbGc..." }
 
 ## 📸 Captures d'écran
 
-### Interface Login
-```
-<img width="1851" height="964" alt="image" src="https://github.com/user-attachments/assets/a99b7984-03d8-45c2-8862-6c61e4601fe6" />
 
-```
+### Page d’accueil
+![Page d’accueil](images/accueil.png)
 
-### Interface Admin
-```
-<img width="1851" height="964" alt="image" src="https://github.com/user-attachments/assets/743ac7be-8533-4a3c-a274-c09e4aebdcc7" />
+### Tableau de bord
+![Dashboard](images/dashboard.png)
 
-```
+### Page produits
+![Produits](images/produits.png)
 
-### Interface Client
-```
-<img width="1851" height="964" alt="image" src="https://github.com/user-attachments/assets/8d420340-8394-4956-8c52-879085fa2edf" />
-
-```
 ---
 
 ## 🧪 Tests
