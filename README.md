@@ -255,16 +255,16 @@ Headers: { Authorization: "Bearer eyJhbGc..." }
 
 
 ### Page Register
-![Page Register](images/register.png)
+![Page Register](images/Register.png)
 
 ### Page Login
 ![Login](images/login.png)
 
 ### Page Admin
-![Admin](images/admindashboard.png)
+![Admin](images/AdminDashboard.png)
 
 ### Page Client
-![Admin](images/clinetDash.png)
+![Admin](images/clientDash.png)
 
 ---
 
