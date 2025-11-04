@@ -254,14 +254,17 @@ Headers: { Authorization: "Bearer eyJhbGc..." }
 ## 📸 Captures d'écran
 
 
-### Page d’accueil
-![Page d’accueil](images/accueil.png)
+### Page Register
+![Page Register](images/register.png)
 
-### Tableau de bord
-![Dashboard](images/dashboard.png)
+### Page Login
+![Login](images/login.png)
 
-### Page produits
-![Produits](images/produits.png)
+### Page Admin
+![Admin](images/admindashboard.png)
+
+### Page Client
+![Admin](images/clinetDash.png)
 
 ---
 
